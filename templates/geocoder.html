@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<title>Geocoder</title>
+<meta charset="utf-8">
+
+<!-- Bootstrap core CSS -->
+<link href="bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom fonts for this template -->
+<link rel="stylesheet" href="font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- Custom styles for this template -->
+<link href="new-age.min.css" rel="stylesheet">
+<link href="custom.css" rel="stylesheet">
+
+</head>
+<div style="text-align:center;" class=main>
+	<div class="container">
+<div class="header-content mx-auto">
+  <h1 class="text-center">Geocoder</h1>
+	<br/>
+</div>
+
+<body>
+<form class = "form-horizontal" method="POST" action='/upload' enctype="multipart/form-data">
+  <h4 class="text-center">Your Input_Address Excel file</h4>		    	
+  <input class="form-control" type='file' name='file'>	
+  <br/>
+  <h4 class="text-center">Your Google Geocoding API Key</h4>
+  <input class="form-control" type="text" name='GoogleKey'>
+  <br/>
+
+  <input class="btn btn-primary" type="submit" value="Upload">
+</form>
+</body>
+	
+	
+	</div>
+</div>
+</html>
